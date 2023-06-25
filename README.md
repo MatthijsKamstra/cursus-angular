@@ -6,6 +6,12 @@ Cursus Angular (WIP)
 - `01_start`
 - `02_basic_types`
 - `03_array`
+- `00_template`
+- `00_json`
+- `00_components`
+- `00_service`
+- `00_html`
+- `00_css`
 
 ## x
 
