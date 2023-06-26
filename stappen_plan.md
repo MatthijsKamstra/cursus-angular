@@ -15,8 +15,8 @@
   - Generate intial project: `ng new 02_basic_types`
   - VSCode "Open new workbanch here"
   - `ng serve --open`
-  - Modify template
   - Modify TypeScript
+  - Modify template
 
 # basic
 
