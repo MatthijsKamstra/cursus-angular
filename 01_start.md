@@ -1,32 +1,27 @@
-# Start
+# 01 Start
 
 https://angular.io/guide/setup-local
 
 ```bash
-npm -v
-```
-
-```bash
-npm install -g @angular/cli
-```
-
-```bash
-ng new my-app
-```
-
-```bash
-cd my-app
+ng new 01_start
+cd 01_start
 ng serve --open
 ```
 
-[http://localhost:4200/](http://localhost:4200/)
+will open your browser: [http://localhost:4200/](http://localhost:4200/)
 
-## generate initial project
+## Generate initial project
 
 ```bash
 ng new 00_setup
 cd 00_setup
 ```
 
-- routing (y/n)
-- css (select)
+Kies voorlopig voor
+
+- routing (y/n) - no
+- css (select) - css
+
+## Start
+
+- `01_start/src/app/app.component.html`
