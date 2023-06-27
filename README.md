@@ -18,7 +18,9 @@ Stappen die we doorlopen
 Gevorderd
 
 - `20_bootstrap`
-- `21_router`
+- `21_curriculum_vitae`
+- `22_router`
+- `23_portfolio`
 
 Extra
 

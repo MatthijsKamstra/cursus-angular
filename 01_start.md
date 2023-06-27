@@ -14,7 +14,6 @@ will open your browser: [http://localhost:4200/](http://localhost:4200/)
 
 ```bash
 ng new 00_setup
-cd 00_setup
 ```
 
 Kies voorlopig voor
