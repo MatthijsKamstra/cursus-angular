@@ -2,18 +2,18 @@
 
 Stappen die we doorlopen
 
-- `00_setup` [code](/00_setup/) <span style="color:red">angular</span>
-- `01_start`
-- `02_basic_types`
-- `03_array`
-- `04_forloop`
-- `05_functions`
-- `06_template`
-- `07_json`
-- `08_components`
-- `09_service`
-- `10_click`
-- `11_samen`
+- `00_setup` [code](/00_setup/) _angular_
+- `01_start` _angular_
+- `02_basic_types` _angular/js_
+- `03_array` _angular/js_
+- `04_forloop` _angular/js_
+- `05_functions` _angular/js_
+- `06_template` _angular/html_
+- `07_json` _angular/data_
+- `08_components` _angular_
+- `09_service` _angular_
+- `10_click` _angular/html_
+- `11_samen` _angular/html/js_
 
 Gevorderd
 
