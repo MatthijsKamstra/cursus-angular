@@ -11,6 +11,7 @@ export class AppComponent {
 	hello(): string {
 		return 'Hello World';
 	}
+
 	helloName(name: string): string {
 		return `Hello ${name}`;
 	}

@@ -2,12 +2,12 @@
 
 Stappen die we doorlopen
 
-- `00_setup` [code](/00_setup/) _angular_
+- `00_setup` [folder](/00_setup/) _angular_
 - `01_start` _angular_
-- `02_basic_types` _angular/js_
-- `03_array` _angular/js_
-- `04_forloop` _angular/js_
-- `05_functions` _angular/js_
+- `02_basic_types` _angular/js/ts_
+- `03_array` _angular/js/ts_
+- `04_forloop` [ts](/04_forloop/src/app/app.component.ts) _angular/js_
+- `05_functions` [ts](/05_functions/src/app/app.component.ts) _angular/js_
 - `06_template` _angular/html_
 - `07_json` _angular/data_
 - `08_components` _angular_
