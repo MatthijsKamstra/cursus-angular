@@ -2,7 +2,7 @@
 
 Stappen die we doorlopen
 
-- `00_setup`
+- `00_setup` [code](/00_setup/) <span style="color:red">angular</span>
 - `01_start`
 - `02_basic_types`
 - `03_array`
