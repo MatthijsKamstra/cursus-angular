@@ -8,9 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
 	title = '04_forloop';
 
-	_stringArray: string[] = ['zero', 'one', 'two'];
-	_booleanArray: boolean[] = [true, false, true];
-	_numberArray: number[] = [0, 1, 2];
+	// TypeScript
+	stringArray: string[] = ['zero', 'one', 'two'];
+	booleanArray: boolean[] = [true, false, true];
+	numberArray: number[] = [0, 1, 2];
+
+	// JavaScript
+	stringArrayJS: Array<string> = ['zero', 'one', 'two'];
+	booleanArrayJS: Array<boolean> = [true, false, true];
+	numberArrayJS: Array<number> = [0, 1, 2];
+
 
 	constructor() {
 		this.funcForLoop();
@@ -20,23 +27,23 @@ export class AppComponent {
 
 	funcForLoop() {
 		console.log('function with for loop');
-		for (let i = 0; i < this._stringArray.length; i++) {
-			const _string = this._stringArray[i];
+		for (let i = 0; i < this.stringArray.length; i++) {
+			const _string = this.stringArray[i];
 			console.log(_string);
 		}
 	}
 
 	funcForIn() {
 		console.log('function with for in loop');
-		for (let i in this._stringArray) {
-			const _string = this._stringArray[i];
+		for (let i in this.stringArray) {
+			const _string = this.stringArray[i];
 			console.log(_string);
 		}
 	}
 
 	funcForOf() {
 		console.log('function with for of loop');
-		for (let x of this._stringArray) {
+		for (let x of this.stringArray) {
 			const _string = x;
 			console.log(_string);
 		}

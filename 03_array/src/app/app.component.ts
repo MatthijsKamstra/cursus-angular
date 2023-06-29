@@ -10,15 +10,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
 	title = '03_array';
 
-	_stringArray: string[] = ['zero', 'one', 'two'];
-	_booleanArray: boolean[] = [true, false, true];
-	_numberArray: number[] = [0, 1, 2];
+	stringArray: string[] = ['zero', 'one', 'two'];
+	booleanArray: boolean[] = [true, false, true];
+	numberArray: number[] = [0, 1, 2];
 
 	constructor() { }
 
 	func() {
-		for (let i = 0; i < this._stringArray.length; i++) {
-			const _string = this._stringArray[i];
+		for (let i = 0; i < this.stringArray.length; i++) {
+			const _string = this.stringArray[i];
 			console.log(_string);
 		}
 	}
